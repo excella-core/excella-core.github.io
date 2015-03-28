@@ -4,8 +4,8 @@
    <head>
       <title>ExCella</title>
 	<meta http-equiv="Content-Language" content="Japanese" />
-	<meta http-equiv="content-type" content="text/html; charset=Shift_JIS" />
-	<meta name="keywords" content="excel,Excel,Java,POI,Reports,���[,�f�[�^�ڍs" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="excel,Excel,Java,POI,Reports,帳票,データ移行" />
 	<link href="excella.css" rel="stylesheet" type="text/css" />
 
    </head>
@@ -22,52 +22,52 @@
 
 		<div id="content">
 
-<h1>�R���Z�v�g</h1>
+<h1>コンセプト</h1>
                 	<p>
-Excel�͗l�X�ȃV�X�e���̃t�����g�G���h�E�o�b�N�G���h�ŗ��p�����悤�ɂȂ��Ă��܂����B<br>
-�܂�Excel2007�ł́A������f�[�^�����̑����A�s�{�b�g�e�[�u��/�s�{�b�g�O���t�̋@�\�̏[���Ȃǂ��s���A�����葽���̃V�[���ł̗��p���\�z����܂��B<br>
+Excelは様々なシステムのフロントエンド・バックエンドで利用されるようになってきました。<br>
+またExcel2007では、扱えるデータ件数の増加、ピボットテーブル/ピボットグラフの機能の充実などが行われ、今後より多くのシーンでの利用が予想されます。<br>
 <br>
-����AJava����Excel�𑀍삷��ɂ�
-<a href="http://poi.apache.org/">POI</a>��<a href="http://jexcelapi.sourceforge.net/">Java Excel API</a>�Ȃǂ̒჌�x����API�𗘗p����̂���ʓI�ł����A
-������API�𗘗p����Excel�𑀍삷��ɂ͑����̃R�[�f�B���O������K�v������AExcel�̃o�[�W�����̈Ⴂ�ɂ��Y�܂���܂��B<br>
+一方、JavaからExcelを操作するには
+<a href="http://poi.apache.org/">POI</a>や<a href="http://jexcelapi.sourceforge.net/">Java Excel API</a>などの低レベルのAPIを利用するのが一般的ですが、
+これらのAPIを利用してExcelを操作するには多くのコーディングをする必要があり、Excelのバージョンの違いにも悩まされます。<br>
 <br>
-���̂悤�Ȗ�����������ړI�ō��ꂽ�̂�ExCella�ł��B<br>
-ExCella�ł́A�x�[�X�ƂȂ�t���[�����[�N�A�l�X�ȃV�[���œK�p�\�Ȓ��`�����x����API��񋟂��鎖�ŁAJava��Excel�̑o�����ł̗e�Ղȗ��p���������܂��B
+このような問題を解決する目的で作られたのがExCellaです。<br>
+ExCellaでは、ベースとなるフレームワーク、様々なシーンで適用可能な中〜高レベルのAPIを提供する事で、JavaとExcelの双方向での容易な利用を実現します。
 <br>
 <p>
-��ExCella��<a href="http://www.bbreak.co.jp/">������Ѓr�[�u���C�N�V�X�e���Y</a>���A
-�Ɩ��Ǘ��V�X�e��(<a href="http://www.bbreak.co.jp/maeyes/index.html">MA-EYES</a>)�Ŏg�p���Ă���R���|�[�l���g���g���AOSS�Ƃ��Č��J�������̂ł��B<BR>
+※ExCellaは<a href="http://www.bbreak.co.jp/">株式会社ビーブレイクシステムズ</a>が、
+業務管理システム(<a href="http://www.bbreak.co.jp/maeyes/index.html">MA-EYES</a>)で使用しているコンポーネントを拡張、OSSとして公開したものです。<BR>
 </p>
 
 </p>
 
-<h1>���C���i�b�v</h1>
+<h1>ラインナップ</h1>
 			<p>
-				<b>�g�����e�Ղ�Excel����t���[�����[�N</b>
+				<b>拡張が容易なExcel操作フレームワーク</b>
 				<a href="./core.html"><img src="images/logo_excella_core_s.gif" alt="ExCella Core" /></a>
 			</p>
 			<br>
 
 			<p>
-				<b>Excel�ŊȒP�e���v���[�g�쐬�B���[�c�[��</b>
+				<b>Excelで簡単テンプレート作成。帳票ツール</b>
 				<a href="./reports.html"><img src="images/logo_excella_reports_s.gif" alt="ExCella Reports" /></a>
 			</p>
 			<br>
 
 			<p>
-				<b>�f�[�^�ڍs���ꊇ�Ǘ��B�f�[�^�ڍs�x���c�[��</b>
+				<b>データ移行を一括管理。データ移行支援ツール</b>
 				<a href="./trans.html"><img src="images/logo_excella_trans_s.gif" alt="ExCella Trans" /></a>
 			</p>
 
 <br>
 				<p>
 <br>
-<h1>�Ή���</h1>
+<h1>対応環境</h1>
 <p>
-Java:J2SE 5.0�ȏ�<br>
-Excel:2000(xls)�`2007(xlsx)<br>
+Java:J2SE 5.0以上<br>
+Excel:2000(xls)〜2007(xlsx)<br>
 <br>
-<h1>���C�Z���X</h1>
+<h1>ライセンス</h1>
 <p>
 LGPL<br>
 </p>
@@ -76,24 +76,24 @@ LGPL<br>
 		<div id="border">
 			<a href="./core.html"><h4>Core</h4></a>
 			<ul>
-				<li><a href="http://sourceforge.jp/projects/excella-core/releases/">�_�E�����[�h</a></li>
-				<li><a href="excella-core/reference/index.html">���t�@�����X</a></li>
+				<li><a href="http://sourceforge.jp/projects/excella-core/releases/">ダウンロード</a></li>
+				<li><a href="excella-core/reference/index.html">リファレンス</a></li>
 				<li><a href="excella-core/javadoc/index.html">Javadoc</a></li>
 				<li><a href="http://sourceforge.jp/projects/excella-core/">SourceForge</a></li>
 			</ul>
 
 			<a href="./reports.html"><h4>Reports</h4></a>
 			<ul>
-				<li><a href="http://sourceforge.jp/projects/excella-reports/releases/">�_�E�����[�h</a></li>
-				<li><a href="excella-reports/reference/index.html">���t�@�����X</a></li>
+				<li><a href="http://sourceforge.jp/projects/excella-reports/releases/">ダウンロード</a></li>
+				<li><a href="excella-reports/reference/index.html">リファレンス</a></li>
 				<li><a href="excella-reports/javadoc/index.html">Javadoc</a></li>
 				<li><a href="http://sourceforge.jp/projects/excella-reports/">SourceForge</a></li>
 			</ul>
 
 			<a href="./trans.html"><h4>Trans</h4></a>
 			<ul>
-				<li><a href="http://sourceforge.jp/projects/excella-trans/releases/">�_�E�����[�h</a></li>
-				<li><a href="excella-trans/reference/index.html">���t�@�����X</a></li>
+				<li><a href="http://sourceforge.jp/projects/excella-trans/releases/">ダウンロード</a></li>
+				<li><a href="excella-trans/reference/index.html">リファレンス</a></li>
 				<li><a href="excella-trans/javadoc/index.html">Javadoc</a></li>
 				<li><a href="http://sourceforge.jp/projects/excella-trans/">SourceForge</a></li>
 			</ul>
@@ -101,24 +101,24 @@ LGPL<br>
 			<hr />
 
 			<ul>
-				<li><a href="http://groups.google.co.jp/group/excella">���[�U�O���[�v</a></li>
-				<li><a href="http://www.bbreak.co.jp/technique/excella.html">�L���T�|�[�g/�T�[�r�X</a></li>
+				<li><a href="http://groups.google.co.jp/group/excella">ユーザグループ</a></li>
+				<li><a href="http://www.bbreak.co.jp/technique/excella.html">有償サポート/サービス</a></li>
 			</ul>
 
 
 			<hr />
 
-			<h4>�j���[�X</h4>
+			<h4>ニュース</h4>
 			<ul>
-				<li><b>ExCella Core 1.8</b> 2014/08/18�Ƀ����[�X���܂���</li>
-				<li><b>ExCella Reports 1.6</b> 2014/08/18�Ƀ����[�X���܂���</li>
-				<li><b>ExCella Trans 1.4</b> 2014/08/18�Ƀ����[�X���܂���</li><br>
-				<li><a href="http://ascii.jp/elem/000/000/431/431276/">ASCII.jp�ŏЉ�<a/>����܂���</li>
-				<li><a href="http://japan.zdnet.com/news/devsys/story/0,2000056182,20395727,00.htm">ZDNet�ŏЉ�<a/>����܂���</li>
-				<li><a href="http://itpro.nikkeibp.co.jp/article/NEWS/20090625/332624/">ITPro�ŏЉ�<a/>����܂���</li>
-				<li><a href="http://journal.mycom.co.jp/news/2009/06/25/023/index.html">�}�C�R�~�W���[�i���ŏЉ�<a/>����܂���</li>
-				<li><a href="http://www.computerworld.jp/topics/osst/151669.html">Computerworld�ŏЉ�<a/>����܂���</li>
-				<li><a href="http://www.ciojp.com/contents/?id=00005502;t=0">CIO Online�ŏЉ�</a>����܂���</li>
+				<li><b>ExCella Core 1.8</b> 2014/08/18にリリースしました</li>
+				<li><b>ExCella Reports 1.6</b> 2014/08/18にリリースしました</li>
+				<li><b>ExCella Trans 1.4</b> 2014/08/18にリリースしました</li><br>
+				<li><a href="http://ascii.jp/elem/000/000/431/431276/">ASCII.jpで紹介<a/>されました</li>
+				<li><a href="http://japan.zdnet.com/news/devsys/story/0,2000056182,20395727,00.htm">ZDNetで紹介<a/>されました</li>
+				<li><a href="http://itpro.nikkeibp.co.jp/article/NEWS/20090625/332624/">ITProで紹介<a/>されました</li>
+				<li><a href="http://journal.mycom.co.jp/news/2009/06/25/023/index.html">マイコミジャーナルで紹介<a/>されました</li>
+				<li><a href="http://www.computerworld.jp/topics/osst/151669.html">Computerworldで紹介<a/>されました</li>
+				<li><a href="http://www.ciojp.com/contents/?id=00005502;t=0">CIO Onlineで紹介</a>されました</li>
 			</ul>
 
 			<hr />
