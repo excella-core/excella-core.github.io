@@ -3,13 +3,14 @@
   <groupId>org.bbreak.excella</groupId>
   <artifactId>excella-reports</artifactId>
   <versioning>
-    <release>1.9</release>
+    <release>1.10</release>
     <versions>
       <version>2.0</version>
       <version>1.7</version>
       <version>1.8</version>
       <version>1.9</version>
+      <version>1.10</version>
     </versions>
-    <lastUpdated>20160404234353</lastUpdated>
+    <lastUpdated>20170128123731</lastUpdated>
   </versioning>
 </metadata>
